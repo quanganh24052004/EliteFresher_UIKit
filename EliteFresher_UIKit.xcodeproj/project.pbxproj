@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CD89C202E0D50BA001D7EE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD89C192E0D50BA001D7EE7 /* LaunchScreen.storyboard */; };
+		2CD89C212E0D50BA001D7EE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD89C1B2E0D50BA001D7EE7 /* Main.storyboard */; };
+		2CD89C222E0D50BA001D7EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD89C1D2E0D50BA001D7EE7 /* Assets.xcassets */; };
+		2CD89C242E0D50BA001D7EE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD89C102E0D50BA001D7EE7 /* AppDelegate.swift */; };
+		2CD89C252E0D50BA001D7EE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD89C112E0D50BA001D7EE7 /* SceneDelegate.swift */; };
+		2CD89C262E0D50BA001D7EE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD89C132E0D50BA001D7EE7 /* ViewController.swift */; };
+		2CD89C302E0D5311001D7EE7 /* Icon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD89C2E2E0D5311001D7EE7 /* Icon2x.png */; };
+		2CD89C312E0D5311001D7EE7 /* Icon_1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD89C2D2E0D5311001D7EE7 /* Icon_1024x1024.png */; };
+		2CD89C322E0D5311001D7EE7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD89C2C2E0D5311001D7EE7 /* Icon.png */; };
+		2CD89C332E0D5311001D7EE7 /* Icon3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD89C2F2E0D5311001D7EE7 /* Icon3x.png */; };
+		2CD89C402E0D5A1A001D7EE7 /* IntroVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CD89C3F2E0D5A1A001D7EE7 /* IntroVC.xib */; };
+		2CD89C412E0D5A1A001D7EE7 /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD89C3E2E0D5A1A001D7EE7 /* IntroVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CD89BF02E0D4D0B001D7EE7 /* EliteFresher_UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EliteFresher_UIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD89C102E0D50BA001D7EE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CD89C112E0D50BA001D7EE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2CD89C132E0D50BA001D7EE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CD89C182E0D50BA001D7EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CD89C1A2E0D50BA001D7EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CD89C1D2E0D50BA001D7EE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CD89C1E2E0D50BA001D7EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD89C2C2E0D5311001D7EE7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2CD89C2D2E0D5311001D7EE7 /* Icon_1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_1024x1024.png; sourceTree = "<group>"; };
+		2CD89C2E2E0D5311001D7EE7 /* Icon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon2x.png; sourceTree = "<group>"; };
+		2CD89C2F2E0D5311001D7EE7 /* Icon3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon3x.png; sourceTree = "<group>"; };
+		2CD89C3E2E0D5A1A001D7EE7 /* IntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
+		2CD89C3F2E0D5A1A001D7EE7 /* IntroVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CD89BED2E0D4D0B001D7EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CD89BE72E0D4D0B001D7EE7 = {
+			isa = PBXGroup;
+			children = (
+				2CD89C1F2E0D50BA001D7EE7 /* EliteFresher_UIKit */,
+				2CD89BF12E0D4D0B001D7EE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CD89BF12E0D4D0B001D7EE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CD89BF02E0D4D0B001D7EE7 /* EliteFresher_UIKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CD89C122E0D50BA001D7EE7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2CD89C102E0D50BA001D7EE7 /* AppDelegate.swift */,
+				2CD89C112E0D50BA001D7EE7 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2CD89C142E0D50BA001D7EE7 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				2CD89C132E0D50BA001D7EE7 /* ViewController.swift */,
+			);
+			path = Basics;
+			sourceTree = "<group>";
+		};
+		2CD89C152E0D50BA001D7EE7 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		2CD89C162E0D50BA001D7EE7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2CD89C172E0D50BA001D7EE7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CD89C1D2E0D50BA001D7EE7 /* Assets.xcassets */,
+				2CD89C1E2E0D50BA001D7EE7 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2CD89C1C2E0D50BA001D7EE7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2CD89C192E0D50BA001D7EE7 /* LaunchScreen.storyboard */,
+				2CD89C1B2E0D50BA001D7EE7 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2CD89C1F2E0D50BA001D7EE7 /* EliteFresher_UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				2CD89C372E0D5802001D7EE7 /* IntroView */,
+				2CD89C122E0D50BA001D7EE7 /* App */,
+				2CD89C142E0D50BA001D7EE7 /* Basics */,
+				2CD89C152E0D50BA001D7EE7 /* Crypto */,
+				2CD89C162E0D50BA001D7EE7 /* Extensions */,
+				2CD89C172E0D50BA001D7EE7 /* Resources */,
+				2CD89C1C2E0D50BA001D7EE7 /* Storyboards */,
+				2CD89C342E0D531A001D7EE7 /* Image */,
+			);
+			path = EliteFresher_UIKit;
+			sourceTree = "<group>";
+		};
+		2CD89C342E0D531A001D7EE7 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				2CD89C2C2E0D5311001D7EE7 /* Icon.png */,
+				2CD89C2D2E0D5311001D7EE7 /* Icon_1024x1024.png */,
+				2CD89C2E2E0D5311001D7EE7 /* Icon2x.png */,
+				2CD89C2F2E0D5311001D7EE7 /* Icon3x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		2CD89C372E0D5802001D7EE7 /* IntroView */ = {
+			isa = PBXGroup;
+			children = (
+				2CD89C3E2E0D5A1A001D7EE7 /* IntroVC.swift */,
+				2CD89C3F2E0D5A1A001D7EE7 /* IntroVC.xib */,
+			);
+			path = IntroView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CD89BEF2E0D4D0B001D7EE7 /* EliteFresher_UIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD89C032E0D4D0C001D7EE7 /* Build configuration list for PBXNativeTarget "EliteFresher_UIKit" */;
+			buildPhases = (
+				2CD89BEC2E0D4D0B001D7EE7 /* Sources */,
+				2CD89BED2E0D4D0B001D7EE7 /* Frameworks */,
+				2CD89BEE2E0D4D0B001D7EE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EliteFresher_UIKit;
+			packageProductDependencies = (
+			);
+			productName = EliteFresher_UIKit;
+			productReference = 2CD89BF02E0D4D0B001D7EE7 /* EliteFresher_UIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CD89BE82E0D4D0B001D7EE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					2CD89BEF2E0D4D0B001D7EE7 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 2CD89BEB2E0D4D0B001D7EE7 /* Build configuration list for PBXProject "EliteFresher_UIKit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CD89BE72E0D4D0B001D7EE7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2CD89BF12E0D4D0B001D7EE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CD89BEF2E0D4D0B001D7EE7 /* EliteFresher_UIKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CD89BEE2E0D4D0B001D7EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD89C202E0D50BA001D7EE7 /* LaunchScreen.storyboard in Resources */,
+				2CD89C402E0D5A1A001D7EE7 /* IntroVC.xib in Resources */,
+				2CD89C212E0D50BA001D7EE7 /* Main.storyboard in Resources */,
+				2CD89C222E0D50BA001D7EE7 /* Assets.xcassets in Resources */,
+				2CD89C302E0D5311001D7EE7 /* Icon2x.png in Resources */,
+				2CD89C312E0D5311001D7EE7 /* Icon_1024x1024.png in Resources */,
+				2CD89C322E0D5311001D7EE7 /* Icon.png in Resources */,
+				2CD89C332E0D5311001D7EE7 /* Icon3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CD89BEC2E0D4D0B001D7EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD89C242E0D50BA001D7EE7 /* AppDelegate.swift in Sources */,
+				2CD89C412E0D5A1A001D7EE7 /* IntroVC.swift in Sources */,
+				2CD89C252E0D50BA001D7EE7 /* SceneDelegate.swift in Sources */,
+				2CD89C262E0D50BA001D7EE7 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CD89C192E0D50BA001D7EE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CD89C182E0D50BA001D7EE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2CD89C1B2E0D50BA001D7EE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CD89C1A2E0D50BA001D7EE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CD89C042E0D4D0C001D7EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT5PJGD97N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EliteFresher_UIKit/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "quanganhnguyen2405.EliteFresher-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CD89C052E0D4D0C001D7EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT5PJGD97N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EliteFresher_UIKit/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "quanganhnguyen2405.EliteFresher-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2CD89C062E0D4D0C001D7EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = WT5PJGD97N;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CD89C072E0D4D0C001D7EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = WT5PJGD97N;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CD89BEB2E0D4D0B001D7EE7 /* Build configuration list for PBXProject "EliteFresher_UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD89C062E0D4D0C001D7EE7 /* Debug */,
+				2CD89C072E0D4D0C001D7EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD89C032E0D4D0C001D7EE7 /* Build configuration list for PBXNativeTarget "EliteFresher_UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD89C042E0D4D0C001D7EE7 /* Debug */,
+				2CD89C052E0D4D0C001D7EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CD89BE82E0D4D0B001D7EE7 /* Project object */;
+}
