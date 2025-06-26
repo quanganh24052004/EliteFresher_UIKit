@@ -5,7 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -48,10 +47,13 @@
                                 <constraint firstAttribute="height" constant="48" id="R2E-Vj-3R1"/>
                             </constraints>
                             <state key="normal" title="Button"/>
-                            <buttonConfiguration key="configuration" style="filled" title="Button">
+                            <buttonConfiguration key="configuration" style="filled" title="Thêm tiểu sử">
                                 <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="baseBackgroundColor" name="Button"/>
                             </buttonConfiguration>
+                            <connections>
+                                <action selector="firstAdd:" destination="-1" eventType="touchUpInside" id="rmf-JA-MqR"/>
+                            </connections>
                         </button>
                     </subviews>
                     <constraints>
@@ -61,7 +63,7 @@
                 </stackView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="backgroundColor" name="BackGround"/>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="o0J-Pj-gPC" secondAttribute="trailing" constant="16" id="AJ7-qg-rXm"/>
                 <constraint firstItem="o0J-Pj-gPC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="FXW-qJ-2tt"/>
@@ -74,6 +76,9 @@
     </objects>
     <resources>
         <image name="Box" width="128" height="128"/>
+        <namedColor name="BackGround">
+            <color red="0.96078431606292725" green="0.96078431606292725" blue="0.97254902124404907" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="Button">
             <color red="1" green="0.38823530077934265" blue="0.40000003576278687" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
@@ -83,8 +88,5 @@
         <namedColor name="Title">
             <color red="0.18431374430656433" green="0.2078431248664856" blue="0.28627452254295349" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

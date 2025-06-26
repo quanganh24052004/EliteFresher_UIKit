@@ -38,6 +38,14 @@
 		2CD89C3F2E0D5A1A001D7EE7 /* IntroVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2CD89C432E0D5E4C001D7EE7 /* FormProfile */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FormProfile;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		2CD89BED2E0D4D0B001D7EE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -117,7 +125,7 @@
 		2CD89C1F2E0D50BA001D7EE7 /* EliteFresher_UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				2CD89C372E0D5802001D7EE7 /* IntroView */,
+				2CD89C422E0D5E3B001D7EE7 /* Views */,
 				2CD89C122E0D50BA001D7EE7 /* App */,
 				2CD89C142E0D50BA001D7EE7 /* Basics */,
 				2CD89C152E0D50BA001D7EE7 /* Crypto */,
@@ -149,6 +157,15 @@
 			path = IntroView;
 			sourceTree = "<group>";
 		};
+		2CD89C422E0D5E3B001D7EE7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2CD89C432E0D5E4C001D7EE7 /* FormProfile */,
+				2CD89C372E0D5802001D7EE7 /* IntroView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -163,6 +180,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2CD89C432E0D5E4C001D7EE7 /* FormProfile */,
 			);
 			name = EliteFresher_UIKit;
 			packageProductDependencies = (

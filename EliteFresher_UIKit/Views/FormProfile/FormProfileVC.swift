@@ -1,5 +1,5 @@
 //
-//  IntroVC.swift
+//  FormProfileVC.swift
 //  EliteFresher_UIKit
 //
 //  Created by iKame Elite Fresher 2025 on 6/26/25.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class IntroVC: UIViewController {
+class FormProfileVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
