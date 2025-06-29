@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		081CF07A2E10CB740068C71D /* FormProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081CF0772E10CB740068C71D /* FormProfileVC.swift */; };
+		081CF07B2E10CB740068C71D /* FormProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 081CF0782E10CB740068C71D /* FormProfileVC.xib */; };
+		081CF0852E10D8480068C71D /* FormCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081CF0842E10D8480068C71D /* FormCV.swift */; };
+		081CF0872E10D8520068C71D /* FormCV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 081CF0862E10D8520068C71D /* FormCV.xib */; };
+		081CF0902E10E4330068C71D /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081CF08D2E10E4330068C71D /* ProfileVC.swift */; };
+		081CF0912E10E4330068C71D /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 081CF08E2E10E4330068C71D /* ProfileVC.xib */; };
+		081CF0962E10E4520068C71D /* ListViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081CF0942E10E4520068C71D /* ListViewVC.swift */; };
+		081CF0972E10E4520068C71D /* ListViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 081CF0952E10E4520068C71D /* ListViewVC.xib */; };
 		2CD89C202E0D50BA001D7EE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD89C192E0D50BA001D7EE7 /* LaunchScreen.storyboard */; };
 		2CD89C212E0D50BA001D7EE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD89C1B2E0D50BA001D7EE7 /* Main.storyboard */; };
 		2CD89C222E0D50BA001D7EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD89C1D2E0D50BA001D7EE7 /* Assets.xcassets */; };
@@ -22,6 +30,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		081CF0772E10CB740068C71D /* FormProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormProfileVC.swift; sourceTree = "<group>"; };
+		081CF0782E10CB740068C71D /* FormProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormProfileVC.xib; sourceTree = "<group>"; };
+		081CF0842E10D8480068C71D /* FormCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormCV.swift; sourceTree = "<group>"; };
+		081CF0862E10D8520068C71D /* FormCV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormCV.xib; sourceTree = "<group>"; };
+		081CF08D2E10E4330068C71D /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		081CF08E2E10E4330068C71D /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		081CF0942E10E4520068C71D /* ListViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewVC.swift; sourceTree = "<group>"; };
+		081CF0952E10E4520068C71D /* ListViewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewVC.xib; sourceTree = "<group>"; };
 		2CD89BF02E0D4D0B001D7EE7 /* EliteFresher_UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EliteFresher_UIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD89C102E0D50BA001D7EE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CD89C112E0D50BA001D7EE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,14 +54,6 @@
 		2CD89C3F2E0D5A1A001D7EE7 /* IntroVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		2CD89C432E0D5E4C001D7EE7 /* FormProfile */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FormProfile;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
 		2CD89BED2E0D4D0B001D7EE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -57,6 +65,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		081CF0792E10CB740068C71D /* FormProfile */ = {
+			isa = PBXGroup;
+			children = (
+				081CF0772E10CB740068C71D /* FormProfileVC.swift */,
+				081CF0782E10CB740068C71D /* FormProfileVC.xib */,
+			);
+			path = FormProfile;
+			sourceTree = "<group>";
+		};
+		081CF07E2E10D1B00068C71D /* FormCV */ = {
+			isa = PBXGroup;
+			children = (
+				081CF0842E10D8480068C71D /* FormCV.swift */,
+				081CF0862E10D8520068C71D /* FormCV.xib */,
+			);
+			path = FormCV;
+			sourceTree = "<group>";
+		};
+		081CF07F2E10D1B00068C71D /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				081CF07E2E10D1B00068C71D /* FormCV */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		081CF08F2E10E4330068C71D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				081CF08D2E10E4330068C71D /* ProfileVC.swift */,
+				081CF08E2E10E4330068C71D /* ProfileVC.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		081CF0932E10E4480068C71D /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				081CF0942E10E4520068C71D /* ListViewVC.swift */,
+				081CF0952E10E4520068C71D /* ListViewVC.xib */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
 		2CD89BE72E0D4D0B001D7EE7 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +177,7 @@
 		2CD89C1F2E0D50BA001D7EE7 /* EliteFresher_UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				081CF07F2E10D1B00068C71D /* CustomViews */,
 				2CD89C422E0D5E3B001D7EE7 /* Views */,
 				2CD89C122E0D50BA001D7EE7 /* App */,
 				2CD89C142E0D50BA001D7EE7 /* Basics */,
@@ -160,7 +213,9 @@
 		2CD89C422E0D5E3B001D7EE7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2CD89C432E0D5E4C001D7EE7 /* FormProfile */,
+				081CF0932E10E4480068C71D /* ListView */,
+				081CF08F2E10E4330068C71D /* Profile */,
+				081CF0792E10CB740068C71D /* FormProfile */,
 				2CD89C372E0D5802001D7EE7 /* IntroView */,
 			);
 			path = Views;
@@ -180,9 +235,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				2CD89C432E0D5E4C001D7EE7 /* FormProfile */,
 			);
 			name = EliteFresher_UIKit;
 			packageProductDependencies = (
@@ -232,11 +284,15 @@
 			files = (
 				2CD89C202E0D50BA001D7EE7 /* LaunchScreen.storyboard in Resources */,
 				2CD89C402E0D5A1A001D7EE7 /* IntroVC.xib in Resources */,
+				081CF0872E10D8520068C71D /* FormCV.xib in Resources */,
 				2CD89C212E0D50BA001D7EE7 /* Main.storyboard in Resources */,
+				081CF07B2E10CB740068C71D /* FormProfileVC.xib in Resources */,
 				2CD89C222E0D50BA001D7EE7 /* Assets.xcassets in Resources */,
 				2CD89C302E0D5311001D7EE7 /* Icon2x.png in Resources */,
 				2CD89C312E0D5311001D7EE7 /* Icon_1024x1024.png in Resources */,
+				081CF0972E10E4520068C71D /* ListViewVC.xib in Resources */,
 				2CD89C322E0D5311001D7EE7 /* Icon.png in Resources */,
+				081CF0912E10E4330068C71D /* ProfileVC.xib in Resources */,
 				2CD89C332E0D5311001D7EE7 /* Icon3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,10 +304,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				081CF0962E10E4520068C71D /* ListViewVC.swift in Sources */,
 				2CD89C242E0D50BA001D7EE7 /* AppDelegate.swift in Sources */,
 				2CD89C412E0D5A1A001D7EE7 /* IntroVC.swift in Sources */,
 				2CD89C252E0D50BA001D7EE7 /* SceneDelegate.swift in Sources */,
+				081CF0902E10E4330068C71D /* ProfileVC.swift in Sources */,
 				2CD89C262E0D50BA001D7EE7 /* ViewController.swift in Sources */,
+				081CF0852E10D8480068C71D /* FormCV.swift in Sources */,
+				081CF07A2E10CB740068C71D /* FormProfileVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
