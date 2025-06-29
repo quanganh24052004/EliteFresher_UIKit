@@ -1,5 +1,5 @@
 //
-//  FormCV.swift
+//  UserCV.swift
 //  EliteFresher_UIKit
 //
 //  Created by Nguyễn Quang Anh on 29/6/25.
@@ -7,12 +7,12 @@
 
 import UIKit
 
-class FormCV: UIView {
-    @IBOutlet var formCV: UIView!
+class UserCV: UIView {
+    @IBOutlet var userCV: UIView!
     
-    @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var userImage: UIImageView!
     
-    @IBOutlet weak var formField: UITextField!
+    @IBOutlet weak var userFullName: UILabel!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -24,17 +24,18 @@ class FormCV: UIView {
         setupUI()
     }
     
+    
     private func setupUI() {
-        Bundle.main.loadNibNamed("FormCV", owner: self, options: nil)
-        self.addSubview(formCV)
-        formCV.frame = self.bounds
-        formCV.autoresizingMask = [.flexibleHeight, .flexibleWidth]
+        Bundle.main.loadNibNamed("UserCV", owner: self, options: nil)
+        self.addSubview(userCV)
+        userCV.frame = self.bounds
+        userCV.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         
         // Bo góc field
-        formField.layer.cornerRadius = 16
-        formField.layer.borderWidth = 1
-        formField.layer.borderColor = UIColor.text.cgColor
-        formField.clipsToBounds = true
+//        formField.layer.cornerRadius = 16
+//        formField.layer.borderWidth = 1
+//        formField.layer.borderColor = UIColor.text.cgColor
+//        formField.clipsToBounds = true
     }
     /*
     // Only override draw() if you perform custom drawing.

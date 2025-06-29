@@ -15,6 +15,12 @@
 		081CF0912E10E4330068C71D /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 081CF08E2E10E4330068C71D /* ProfileVC.xib */; };
 		081CF0962E10E4520068C71D /* ListViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081CF0942E10E4520068C71D /* ListViewVC.swift */; };
 		081CF0972E10E4520068C71D /* ListViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 081CF0952E10E4520068C71D /* ListViewVC.xib */; };
+		081CF09B2E1154600068C71D /* UserCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081CF09A2E1154600068C71D /* UserCV.swift */; };
+		081CF09D2E1154690068C71D /* UserCV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 081CF09C2E1154690068C71D /* UserCV.xib */; };
+		081CF0A12E115D6C0068C71D /* UserBMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081CF0A02E115D6C0068C71D /* UserBMI.swift */; };
+		081CF0A32E115D730068C71D /* UserBMI.xib in Resources */ = {isa = PBXBuildFile; fileRef = 081CF0A22E115D730068C71D /* UserBMI.xib */; };
+		081CF0A72E1183F20068C71D /* ButtonCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081CF0A62E1183F20068C71D /* ButtonCV.swift */; };
+		081CF0A92E1183F90068C71D /* ButtonCV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 081CF0A82E1183F90068C71D /* ButtonCV.xib */; };
 		2CD89C202E0D50BA001D7EE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD89C192E0D50BA001D7EE7 /* LaunchScreen.storyboard */; };
 		2CD89C212E0D50BA001D7EE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD89C1B2E0D50BA001D7EE7 /* Main.storyboard */; };
 		2CD89C222E0D50BA001D7EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD89C1D2E0D50BA001D7EE7 /* Assets.xcassets */; };
@@ -38,6 +44,12 @@
 		081CF08E2E10E4330068C71D /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		081CF0942E10E4520068C71D /* ListViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewVC.swift; sourceTree = "<group>"; };
 		081CF0952E10E4520068C71D /* ListViewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewVC.xib; sourceTree = "<group>"; };
+		081CF09A2E1154600068C71D /* UserCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCV.swift; sourceTree = "<group>"; };
+		081CF09C2E1154690068C71D /* UserCV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCV.xib; sourceTree = "<group>"; };
+		081CF0A02E115D6C0068C71D /* UserBMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBMI.swift; sourceTree = "<group>"; };
+		081CF0A22E115D730068C71D /* UserBMI.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserBMI.xib; sourceTree = "<group>"; };
+		081CF0A62E1183F20068C71D /* ButtonCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCV.swift; sourceTree = "<group>"; };
+		081CF0A82E1183F90068C71D /* ButtonCV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCV.xib; sourceTree = "<group>"; };
 		2CD89BF02E0D4D0B001D7EE7 /* EliteFresher_UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EliteFresher_UIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD89C102E0D50BA001D7EE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CD89C112E0D50BA001D7EE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +98,9 @@
 		081CF07F2E10D1B00068C71D /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				081CF0A52E1183E90068C71D /* ButtonCV */,
+				081CF09F2E115D610068C71D /* UserIBM */,
+				081CF0992E1154530068C71D /* UserCV */,
 				081CF07E2E10D1B00068C71D /* FormCV */,
 			);
 			path = CustomViews;
@@ -107,6 +122,33 @@
 				081CF0952E10E4520068C71D /* ListViewVC.xib */,
 			);
 			path = ListView;
+			sourceTree = "<group>";
+		};
+		081CF0992E1154530068C71D /* UserCV */ = {
+			isa = PBXGroup;
+			children = (
+				081CF09A2E1154600068C71D /* UserCV.swift */,
+				081CF09C2E1154690068C71D /* UserCV.xib */,
+			);
+			path = UserCV;
+			sourceTree = "<group>";
+		};
+		081CF09F2E115D610068C71D /* UserIBM */ = {
+			isa = PBXGroup;
+			children = (
+				081CF0A02E115D6C0068C71D /* UserBMI.swift */,
+				081CF0A22E115D730068C71D /* UserBMI.xib */,
+			);
+			path = UserIBM;
+			sourceTree = "<group>";
+		};
+		081CF0A52E1183E90068C71D /* ButtonCV */ = {
+			isa = PBXGroup;
+			children = (
+				081CF0A62E1183F20068C71D /* ButtonCV.swift */,
+				081CF0A82E1183F90068C71D /* ButtonCV.xib */,
+			);
+			path = ButtonCV;
 			sourceTree = "<group>";
 		};
 		2CD89BE72E0D4D0B001D7EE7 = {
@@ -285,13 +327,16 @@
 				2CD89C202E0D50BA001D7EE7 /* LaunchScreen.storyboard in Resources */,
 				2CD89C402E0D5A1A001D7EE7 /* IntroVC.xib in Resources */,
 				081CF0872E10D8520068C71D /* FormCV.xib in Resources */,
+				081CF0A92E1183F90068C71D /* ButtonCV.xib in Resources */,
 				2CD89C212E0D50BA001D7EE7 /* Main.storyboard in Resources */,
 				081CF07B2E10CB740068C71D /* FormProfileVC.xib in Resources */,
 				2CD89C222E0D50BA001D7EE7 /* Assets.xcassets in Resources */,
 				2CD89C302E0D5311001D7EE7 /* Icon2x.png in Resources */,
 				2CD89C312E0D5311001D7EE7 /* Icon_1024x1024.png in Resources */,
+				081CF09D2E1154690068C71D /* UserCV.xib in Resources */,
 				081CF0972E10E4520068C71D /* ListViewVC.xib in Resources */,
 				2CD89C322E0D5311001D7EE7 /* Icon.png in Resources */,
+				081CF0A32E115D730068C71D /* UserBMI.xib in Resources */,
 				081CF0912E10E4330068C71D /* ProfileVC.xib in Resources */,
 				2CD89C332E0D5311001D7EE7 /* Icon3x.png in Resources */,
 			);
@@ -306,10 +351,13 @@
 			files = (
 				081CF0962E10E4520068C71D /* ListViewVC.swift in Sources */,
 				2CD89C242E0D50BA001D7EE7 /* AppDelegate.swift in Sources */,
+				081CF0A72E1183F20068C71D /* ButtonCV.swift in Sources */,
 				2CD89C412E0D5A1A001D7EE7 /* IntroVC.swift in Sources */,
+				081CF0A12E115D6C0068C71D /* UserBMI.swift in Sources */,
 				2CD89C252E0D50BA001D7EE7 /* SceneDelegate.swift in Sources */,
 				081CF0902E10E4330068C71D /* ProfileVC.swift in Sources */,
 				2CD89C262E0D50BA001D7EE7 /* ViewController.swift in Sources */,
+				081CF09B2E1154600068C71D /* UserCV.swift in Sources */,
 				081CF0852E10D8480068C71D /* FormCV.swift in Sources */,
 				081CF07A2E10CB740068C71D /* FormProfileVC.swift in Sources */,
 			);

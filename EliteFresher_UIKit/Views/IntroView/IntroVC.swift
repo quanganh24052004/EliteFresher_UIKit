@@ -13,6 +13,9 @@ class IntroVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.hidesBackButton = true
+        
         let titleIntroVC = UILabel()
         titleIntroVC.text = "Danh sách"
         titleIntroVC.font = UIFont.systemFont(ofSize: 20, weight: .bold)

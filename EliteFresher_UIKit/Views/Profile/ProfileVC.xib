@@ -3,6 +3,7 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -10,6 +11,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileVC" customModule="EliteFresher_UIKit" customModuleProvider="target">
             <connections>
+                <outlet property="indexUserView" destination="Izi-mJ-pha" id="s9R-OP-PB0"/>
+                <outlet property="userProfile" destination="XXW-93-oHu" id="eBg-iH-dwI"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -17,12 +20,83 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="top" translatesAutoresizingMaskIntoConstraints="NO" id="XXW-93-oHu" customClass="UserCV" customModule="EliteFresher_UIKit" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="142" width="393" height="180"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="XXW-93-oHu" secondAttribute="height" multiplier="131:60" id="kLS-5Z-afm"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Izi-mJ-pha">
+                    <rect key="frame" x="32" y="350" width="329" height="128"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="KNc-TJ-glf">
+                            <rect key="frame" x="0.0" y="0.0" width="329" height="128"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Your BMI:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tB9-Cp-tkY">
+                                    <rect key="frame" x="130" y="0.0" width="69.333333333333314" height="26.333333333333332"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <color key="textColor" name="Title"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="XX.X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEE-7O-1wb">
+                                    <rect key="frame" x="90.666666666666686" y="38.333333333333321" width="148" height="76.666666666666686"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="64"/>
+                                    <color key="textColor" name="GreenText"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="am9-3B-DK7">
+                                    <rect key="frame" x="0.0" y="127" width="329" height="1"/>
+                                    <color key="backgroundColor" name="Non_Button"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="qsq-WZ-heP"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="KNc-TJ-glf" secondAttribute="height" multiplier="329:128" id="105-AD-IrA"/>
+                                <constraint firstAttribute="trailing" secondItem="am9-3B-DK7" secondAttribute="trailing" id="9W2-7y-y9m"/>
+                                <constraint firstItem="am9-3B-DK7" firstAttribute="leading" secondItem="KNc-TJ-glf" secondAttribute="leading" id="g67-mO-Pqf"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="KNc-TJ-glf" secondAttribute="trailing" id="Ahq-H1-itm"/>
+                        <constraint firstAttribute="width" secondItem="Izi-mJ-pha" secondAttribute="height" multiplier="329:128" id="ddS-t7-dJ8"/>
+                        <constraint firstAttribute="bottom" secondItem="KNc-TJ-glf" secondAttribute="bottom" id="f09-BD-FKk"/>
+                        <constraint firstItem="KNc-TJ-glf" firstAttribute="top" secondItem="Izi-mJ-pha" secondAttribute="top" id="xgV-ui-vYZ"/>
+                        <constraint firstItem="KNc-TJ-glf" firstAttribute="leading" secondItem="Izi-mJ-pha" secondAttribute="leading" id="xmm-qh-xUC"/>
+                    </constraints>
+                </view>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-            <point key="canvasLocation" x="28" y="20"/>
+            <color key="backgroundColor" name="BackGround"/>
+            <constraints>
+                <constraint firstItem="Izi-mJ-pha" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="32" id="07F-Bd-ER2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Izi-mJ-pha" secondAttribute="trailing" constant="32" id="2pi-wd-32P"/>
+                <constraint firstItem="XXW-93-oHu" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="24" id="6fO-Wp-P3P"/>
+                <constraint firstItem="Izi-mJ-pha" firstAttribute="top" secondItem="XXW-93-oHu" secondAttribute="bottom" constant="28" id="hes-xJ-bTk"/>
+                <constraint firstItem="XXW-93-oHu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="pvz-yk-zKo"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="XXW-93-oHu" secondAttribute="trailing" id="xDR-WM-Hba"/>
+            </constraints>
+            <point key="canvasLocation" x="26.717557251908396" y="19.718309859154932"/>
         </view>
     </objects>
     <resources>
+        <namedColor name="BackGround">
+            <color red="0.96078431606292725" green="0.96078431606292725" blue="0.97254902124404907" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GreenText">
+            <color red="0.16862747073173523" green="0.68235301971435547" blue="0.12549020349979401" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Non_Button">
+            <color red="0.61176472902297974" green="0.61960786581039429" blue="0.72549021244049072" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Title">
+            <color red="0.18431374430656433" green="0.2078431248664856" blue="0.28627452254295349" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
