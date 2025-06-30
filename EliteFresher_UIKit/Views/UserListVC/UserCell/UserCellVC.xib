@@ -80,6 +80,10 @@
                     <constraint firstItem="RK5-mu-Rxy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="t1A-UC-lHV"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="fullName" destination="6Ob-P0-fjO" id="yST-4m-duT"/>
+                <outlet property="weightHeight" destination="Gf4-Md-ftj" id="jBp-xW-nHR"/>
+            </connections>
             <point key="canvasLocation" x="-30.534351145038165" y="75.704225352112687"/>
         </tableViewCell>
     </objects>
