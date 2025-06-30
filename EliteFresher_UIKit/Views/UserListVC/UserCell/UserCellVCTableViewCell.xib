@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="123" id="KGk-i7-Jjw" customClass="UserCellVCTableViewCell" customModule="EliteFresher_UIKit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="342" height="87"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="342" height="87"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="RK5-mu-Rxy">
+                        <rect key="frame" x="0.0" y="0.0" width="342" height="80"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="diN-Qz-Cte">
+                                <rect key="frame" x="16" y="16.666666666666668" width="48" height="46.666666666666657"/>
+                                <color key="tintColor" red="1" green="0.38823529410000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="16J-sO-pg6"/>
+                                    <constraint firstAttribute="width" secondItem="diN-Qz-Cte" secondAttribute="height" multiplier="1:1" id="RyR-Zg-tK0"/>
+                                    <constraint firstAttribute="width" constant="48" id="ptW-mG-ShS"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="D09-w1-g44">
+                                <rect key="frame" x="80" y="20.666666666666668" width="214" height="38.666666666666657"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Full Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ob-P0-fjO">
+                                        <rect key="frame" x="0.0" y="0.0" width="214" height="21.666666666666668"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <color key="textColor" name="Text"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="W: ---kg - H: ---cm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gf4-Md-ftj">
+                                        <rect key="frame" x="0.0" y="21.666666666666668" width="214" height="17.000000000000004"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" name="Non_Button"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mlW-9T-716">
+                                <rect key="frame" x="306" y="30" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="2mP-ig-gbU"/>
+                                    <constraint firstAttribute="width" secondItem="mlW-9T-716" secondAttribute="height" multiplier="1:1" id="66D-JC-WVr"/>
+                                    <constraint firstAttribute="width" constant="20" id="Rue-8Q-BJa"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="arrow.right.circle.fill" catalog="system">
+                                    <color key="baseForegroundColor" red="1" green="0.38823529410000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" name="BackGround"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="diN-Qz-Cte" secondAttribute="bottom" constant="16" id="77d-jj-Spn"/>
+                            <constraint firstItem="D09-w1-g44" firstAttribute="leading" secondItem="diN-Qz-Cte" secondAttribute="trailing" constant="16" id="EXP-OR-eCj"/>
+                            <constraint firstAttribute="trailing" secondItem="mlW-9T-716" secondAttribute="trailing" constant="16" id="OwT-ft-SEH"/>
+                            <constraint firstItem="diN-Qz-Cte" firstAttribute="leading" secondItem="RK5-mu-Rxy" secondAttribute="leading" constant="16" id="r21-fB-yoj"/>
+                            <constraint firstItem="diN-Qz-Cte" firstAttribute="top" secondItem="RK5-mu-Rxy" secondAttribute="top" constant="16" id="uln-1C-B0r"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="RK5-mu-Rxy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="IU6-As-tp8"/>
+                    <constraint firstAttribute="trailing" secondItem="RK5-mu-Rxy" secondAttribute="trailing" id="Qmg-sj-hkA"/>
+                    <constraint firstAttribute="bottom" secondItem="RK5-mu-Rxy" secondAttribute="bottom" id="dpX-Dr-FFn"/>
+                    <constraint firstItem="RK5-mu-Rxy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="t1A-UC-lHV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="-30.534351145038165" y="75.704225352112687"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow.right.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="person.circle.fill" catalog="system" width="128" height="123"/>
+        <namedColor name="BackGround">
+            <color red="0.96078431606292725" green="0.96078431606292725" blue="0.97254902124404907" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Non_Button">
+            <color red="0.61176472902297974" green="0.61960786581039429" blue="0.72549021244049072" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text">
+            <color red="0.3490196168422699" green="0.38039219379425049" blue="0.47843140363693237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

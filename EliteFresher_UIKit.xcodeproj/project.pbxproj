@@ -18,13 +18,13 @@
 		081CF0A72E1183F20068C71D /* ButtonCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081CF0A62E1183F20068C71D /* ButtonCV.swift */; };
 		081CF0A92E1183F90068C71D /* ButtonCV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 081CF0A82E1183F90068C71D /* ButtonCV.xib */; };
 		2C576CF22E12381900550455 /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C576CF02E12381900550455 /* CustomLayout.swift */; };
-		2C576CF72E123E2D00550455 /* UserTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C576CF62E123E2D00550455 /* UserTVC.xib */; };
-		2C576CF82E123E2D00550455 /* UserTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C576CF52E123E2D00550455 /* UserTVC.swift */; };
 		2C576D422E12710A00550455 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C576D412E12710A00550455 /* User.swift */; };
-		2C576D452E127E2100550455 /* UserListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C576D442E127E2100550455 /* UserListVC.xib */; };
-		2C576D462E127E2100550455 /* UserListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C576D432E127E2100550455 /* UserListVC.swift */; };
 		2C576D4D2E12821200550455 /* UserCV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C576D4B2E12821200550455 /* UserCV.xib */; };
 		2C576D4E2E12821200550455 /* UserCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C576D4A2E12821200550455 /* UserCV.swift */; };
+		2C576D532E12846E00550455 /* UserListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C576D522E12846E00550455 /* UserListVC.xib */; };
+		2C576D542E12846E00550455 /* UserListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C576D512E12846E00550455 /* UserListVC.swift */; };
+		2C576D592E12908800550455 /* UserCellVCTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C576D582E12908800550455 /* UserCellVCTableViewCell.xib */; };
+		2C576D5A2E12908800550455 /* UserCellVCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C576D572E12908800550455 /* UserCellVCTableViewCell.swift */; };
 		2CD89C202E0D50BA001D7EE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD89C192E0D50BA001D7EE7 /* LaunchScreen.storyboard */; };
 		2CD89C212E0D50BA001D7EE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD89C1B2E0D50BA001D7EE7 /* Main.storyboard */; };
 		2CD89C222E0D50BA001D7EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD89C1D2E0D50BA001D7EE7 /* Assets.xcassets */; };
@@ -51,13 +51,13 @@
 		081CF0A62E1183F20068C71D /* ButtonCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCV.swift; sourceTree = "<group>"; };
 		081CF0A82E1183F90068C71D /* ButtonCV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCV.xib; sourceTree = "<group>"; };
 		2C576CF02E12381900550455 /* CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
-		2C576CF52E123E2D00550455 /* UserTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTVC.swift; sourceTree = "<group>"; };
-		2C576CF62E123E2D00550455 /* UserTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTVC.xib; sourceTree = "<group>"; };
 		2C576D412E12710A00550455 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		2C576D432E127E2100550455 /* UserListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListVC.swift; sourceTree = "<group>"; };
-		2C576D442E127E2100550455 /* UserListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserListVC.xib; sourceTree = "<group>"; };
 		2C576D4A2E12821200550455 /* UserCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCV.swift; sourceTree = "<group>"; };
 		2C576D4B2E12821200550455 /* UserCV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCV.xib; sourceTree = "<group>"; };
+		2C576D512E12846E00550455 /* UserListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListVC.swift; sourceTree = "<group>"; };
+		2C576D522E12846E00550455 /* UserListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserListVC.xib; sourceTree = "<group>"; };
+		2C576D572E12908800550455 /* UserCellVCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellVCTableViewCell.swift; sourceTree = "<group>"; };
+		2C576D582E12908800550455 /* UserCellVCTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCellVCTableViewCell.xib; sourceTree = "<group>"; };
 		2CD89BF02E0D4D0B001D7EE7 /* EliteFresher_UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EliteFresher_UIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD89C102E0D50BA001D7EE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CD89C112E0D50BA001D7EE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,7 +109,6 @@
 				2C576D4C2E12821200550455 /* UserCV */,
 				081CF0A52E1183E90068C71D /* ButtonCV */,
 				081CF09F2E115D610068C71D /* UserIBM */,
-				081CF0992E1154530068C71D /* UserListVC */,
 				081CF07E2E10D1B00068C71D /* FormCV */,
 			);
 			path = CustomViews;
@@ -122,15 +121,6 @@
 				081CF08E2E10E4330068C71D /* ProfileVC.xib */,
 			);
 			path = Profile;
-			sourceTree = "<group>";
-		};
-		081CF0992E1154530068C71D /* UserListVC */ = {
-			isa = PBXGroup;
-			children = (
-				2C576D432E127E2100550455 /* UserListVC.swift */,
-				2C576D442E127E2100550455 /* UserListVC.xib */,
-			);
-			path = UserListVC;
 			sourceTree = "<group>";
 		};
 		081CF09F2E115D610068C71D /* UserIBM */ = {
@@ -159,15 +149,6 @@
 			path = Layouts;
 			sourceTree = "<group>";
 		};
-		2C576CF42E123DEC00550455 /* UserTVC */ = {
-			isa = PBXGroup;
-			children = (
-				2C576CF52E123E2D00550455 /* UserTVC.swift */,
-				2C576CF62E123E2D00550455 /* UserTVC.xib */,
-			);
-			path = UserTVC;
-			sourceTree = "<group>";
-		};
 		2C576D402E12709500550455 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +164,25 @@
 				2C576D4B2E12821200550455 /* UserCV.xib */,
 			);
 			path = UserCV;
+			sourceTree = "<group>";
+		};
+		2C576D502E12846500550455 /* UserListVC */ = {
+			isa = PBXGroup;
+			children = (
+				2C576D562E12907900550455 /* UserCell */,
+				2C576D512E12846E00550455 /* UserListVC.swift */,
+				2C576D522E12846E00550455 /* UserListVC.xib */,
+			);
+			path = UserListVC;
+			sourceTree = "<group>";
+		};
+		2C576D562E12907900550455 /* UserCell */ = {
+			isa = PBXGroup;
+			children = (
+				2C576D572E12908800550455 /* UserCellVCTableViewCell.swift */,
+				2C576D582E12908800550455 /* UserCellVCTableViewCell.xib */,
+			);
+			path = UserCell;
 			sourceTree = "<group>";
 		};
 		2CD89BE72E0D4D0B001D7EE7 = {
@@ -216,13 +216,6 @@
 				2CD89C132E0D50BA001D7EE7 /* ViewController.swift */,
 			);
 			path = Basics;
-			sourceTree = "<group>";
-		};
-		2CD89C152E0D50BA001D7EE7 /* Crypto */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Crypto;
 			sourceTree = "<group>";
 		};
 		2CD89C162E0D50BA001D7EE7 /* Extensions */ = {
@@ -259,7 +252,6 @@
 				2CD89C422E0D5E3B001D7EE7 /* Views */,
 				2CD89C122E0D50BA001D7EE7 /* App */,
 				2CD89C142E0D50BA001D7EE7 /* Basics */,
-				2CD89C152E0D50BA001D7EE7 /* Crypto */,
 				2CD89C162E0D50BA001D7EE7 /* Extensions */,
 				2CD89C172E0D50BA001D7EE7 /* Resources */,
 				2CD89C1C2E0D50BA001D7EE7 /* Storyboards */,
@@ -291,7 +283,7 @@
 		2CD89C422E0D5E3B001D7EE7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2C576CF42E123DEC00550455 /* UserTVC */,
+				2C576D502E12846500550455 /* UserListVC */,
 				081CF08F2E10E4330068C71D /* Profile */,
 				081CF0792E10CB740068C71D /* FormProfile */,
 				2CD89C372E0D5802001D7EE7 /* IntroView */,
@@ -363,16 +355,16 @@
 				2CD89C202E0D50BA001D7EE7 /* LaunchScreen.storyboard in Resources */,
 				2CD89C402E0D5A1A001D7EE7 /* IntroVC.xib in Resources */,
 				081CF0872E10D8520068C71D /* FormCV.xib in Resources */,
+				2C576D532E12846E00550455 /* UserListVC.xib in Resources */,
 				2C576D4D2E12821200550455 /* UserCV.xib in Resources */,
 				081CF0A92E1183F90068C71D /* ButtonCV.xib in Resources */,
 				2CD89C212E0D50BA001D7EE7 /* Main.storyboard in Resources */,
+				2C576D592E12908800550455 /* UserCellVCTableViewCell.xib in Resources */,
 				081CF07B2E10CB740068C71D /* FormProfileVC.xib in Resources */,
 				2CD89C222E0D50BA001D7EE7 /* Assets.xcassets in Resources */,
 				2CD89C302E0D5311001D7EE7 /* Icon2x.png in Resources */,
 				2CD89C312E0D5311001D7EE7 /* Icon_1024x1024.png in Resources */,
 				2CD89C322E0D5311001D7EE7 /* Icon.png in Resources */,
-				2C576D452E127E2100550455 /* UserListVC.xib in Resources */,
-				2C576CF72E123E2D00550455 /* UserTVC.xib in Resources */,
 				081CF0A32E115D730068C71D /* UserBMI.xib in Resources */,
 				081CF0912E10E4330068C71D /* ProfileVC.xib in Resources */,
 				2CD89C332E0D5311001D7EE7 /* Icon3x.png in Resources */,
@@ -392,14 +384,14 @@
 				081CF0A72E1183F20068C71D /* ButtonCV.swift in Sources */,
 				2CD89C412E0D5A1A001D7EE7 /* IntroVC.swift in Sources */,
 				081CF0A12E115D6C0068C71D /* UserBMI.swift in Sources */,
-				2C576CF82E123E2D00550455 /* UserTVC.swift in Sources */,
 				2CD89C252E0D50BA001D7EE7 /* SceneDelegate.swift in Sources */,
+				2C576D542E12846E00550455 /* UserListVC.swift in Sources */,
 				2C576CF22E12381900550455 /* CustomLayout.swift in Sources */,
+				2C576D5A2E12908800550455 /* UserCellVCTableViewCell.swift in Sources */,
 				081CF0902E10E4330068C71D /* ProfileVC.swift in Sources */,
 				2CD89C262E0D50BA001D7EE7 /* ViewController.swift in Sources */,
 				081CF0852E10D8480068C71D /* FormCV.swift in Sources */,
 				081CF07A2E10CB740068C71D /* FormProfileVC.swift in Sources */,
-				2C576D462E127E2100550455 /* UserListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
