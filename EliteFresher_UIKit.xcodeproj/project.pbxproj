@@ -23,8 +23,8 @@
 		2C576D4E2E12821200550455 /* UserCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C576D4A2E12821200550455 /* UserCV.swift */; };
 		2C576D532E12846E00550455 /* UserListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C576D522E12846E00550455 /* UserListVC.xib */; };
 		2C576D542E12846E00550455 /* UserListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C576D512E12846E00550455 /* UserListVC.swift */; };
-		2C576D592E12908800550455 /* UserCellVCTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C576D582E12908800550455 /* UserCellVCTableViewCell.xib */; };
-		2C576D5A2E12908800550455 /* UserCellVCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C576D572E12908800550455 /* UserCellVCTableViewCell.swift */; };
+		2C576D592E12908800550455 /* UserCellVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C576D582E12908800550455 /* UserCellVC.xib */; };
+		2C576D5A2E12908800550455 /* UserCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C576D572E12908800550455 /* UserCellVC.swift */; };
 		2CD89C202E0D50BA001D7EE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD89C192E0D50BA001D7EE7 /* LaunchScreen.storyboard */; };
 		2CD89C212E0D50BA001D7EE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD89C1B2E0D50BA001D7EE7 /* Main.storyboard */; };
 		2CD89C222E0D50BA001D7EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD89C1D2E0D50BA001D7EE7 /* Assets.xcassets */; };
@@ -56,8 +56,8 @@
 		2C576D4B2E12821200550455 /* UserCV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCV.xib; sourceTree = "<group>"; };
 		2C576D512E12846E00550455 /* UserListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListVC.swift; sourceTree = "<group>"; };
 		2C576D522E12846E00550455 /* UserListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserListVC.xib; sourceTree = "<group>"; };
-		2C576D572E12908800550455 /* UserCellVCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellVCTableViewCell.swift; sourceTree = "<group>"; };
-		2C576D582E12908800550455 /* UserCellVCTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCellVCTableViewCell.xib; sourceTree = "<group>"; };
+		2C576D572E12908800550455 /* UserCellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellVC.swift; sourceTree = "<group>"; };
+		2C576D582E12908800550455 /* UserCellVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCellVC.xib; sourceTree = "<group>"; };
 		2CD89BF02E0D4D0B001D7EE7 /* EliteFresher_UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EliteFresher_UIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD89C102E0D50BA001D7EE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CD89C112E0D50BA001D7EE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -179,8 +179,8 @@
 		2C576D562E12907900550455 /* UserCell */ = {
 			isa = PBXGroup;
 			children = (
-				2C576D572E12908800550455 /* UserCellVCTableViewCell.swift */,
-				2C576D582E12908800550455 /* UserCellVCTableViewCell.xib */,
+				2C576D572E12908800550455 /* UserCellVC.swift */,
+				2C576D582E12908800550455 /* UserCellVC.xib */,
 			);
 			path = UserCell;
 			sourceTree = "<group>";
@@ -359,7 +359,7 @@
 				2C576D4D2E12821200550455 /* UserCV.xib in Resources */,
 				081CF0A92E1183F90068C71D /* ButtonCV.xib in Resources */,
 				2CD89C212E0D50BA001D7EE7 /* Main.storyboard in Resources */,
-				2C576D592E12908800550455 /* UserCellVCTableViewCell.xib in Resources */,
+				2C576D592E12908800550455 /* UserCellVC.xib in Resources */,
 				081CF07B2E10CB740068C71D /* FormProfileVC.xib in Resources */,
 				2CD89C222E0D50BA001D7EE7 /* Assets.xcassets in Resources */,
 				2CD89C302E0D5311001D7EE7 /* Icon2x.png in Resources */,
@@ -387,7 +387,7 @@
 				2CD89C252E0D50BA001D7EE7 /* SceneDelegate.swift in Sources */,
 				2C576D542E12846E00550455 /* UserListVC.swift in Sources */,
 				2C576CF22E12381900550455 /* CustomLayout.swift in Sources */,
-				2C576D5A2E12908800550455 /* UserCellVCTableViewCell.swift in Sources */,
+				2C576D5A2E12908800550455 /* UserCellVC.swift in Sources */,
 				081CF0902E10E4330068C71D /* ProfileVC.swift in Sources */,
 				2CD89C262E0D50BA001D7EE7 /* ViewController.swift in Sources */,
 				081CF0852E10D8480068C71D /* FormCV.swift in Sources */,

@@ -7,8 +7,11 @@
 
 import UIKit
 
-class UserCellVCTableViewCell: UITableViewCell {
-
+class UserCellVC: UITableViewCell {
+    @IBOutlet weak var fullName: UILabel!
+    
+    @IBOutlet weak var weightHeight: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -16,8 +19,11 @@ class UserCellVCTableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
         // Configure the view for the selected state
     }
-    
+    func configure(with user: User) {
+        fullName.text = "\(user.firstName) - \(user.lastName)"
+        weightHeight.text = "\(user.weight)kg - \(user.height)cm"
+    }
 }

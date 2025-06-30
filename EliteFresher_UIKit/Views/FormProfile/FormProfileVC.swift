@@ -84,8 +84,8 @@ class FormProfileVC: UIViewController {
             print("✅ Đã lưu thông tin user: \(user)")
         }
 
-        //let introVC = IntroVC()
-        //self.navigationController?.pushViewController(introVC, animated: true)
+        let userListVC = UserListVC()
+        self.navigationController?.pushViewController(userListVC, animated: true)
     }
     
 //    @objc func saveTapped() {

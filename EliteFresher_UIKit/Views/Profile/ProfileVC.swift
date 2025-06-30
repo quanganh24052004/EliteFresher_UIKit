@@ -8,6 +8,7 @@
 import UIKit
 
 class ProfileVC: UIViewController {
+    var user: User?
 
     @IBOutlet weak var userProfile: UserCV!
     
@@ -27,7 +28,12 @@ class ProfileVC: UIViewController {
         navigationItem.titleView = titleProfileVC
         
         userProfile.userFullName.text = "Nguyễn Quang Anh"
-
+        if let user = user {
+            userProfile.userFullName.text = "\(user.firstName) \(user.lastName)"
+//            userProfile.userGender.text = user.gender.rawValue
+//            userProfile.userHeight.text = "\(user.height) cm"
+//            userProfile.userWeight.text = "\(user.weight) kg"
+        }
         // Bo cong
         indexUserView.layer.cornerRadius = 16
         indexUserView.clipsToBounds = true
