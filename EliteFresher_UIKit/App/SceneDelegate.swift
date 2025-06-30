@@ -22,7 +22,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
     
 //        let firstVC = ProfileVC()
-        let firstVC = IntroVC()
+        let firstVC = UserListVC()
+//        let firstVC = IntroVC()
         let naviVC = UINavigationController(rootViewController: firstVC)
         
         window.rootViewController = naviVC

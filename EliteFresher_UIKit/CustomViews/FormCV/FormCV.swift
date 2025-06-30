@@ -8,12 +8,21 @@
 import UIKit
 
 class FormCV: UIView {
+    
+    // MARK: Outlet
     @IBOutlet var formCV: UIView!
     
     @IBOutlet weak var title: UILabel!
     
     @IBOutlet weak var formField: UITextField!
     
+    // MARK: Data
+    public var text: String {
+        get { formField.text ?? "" }
+        set { formField.text = newValue }
+    }
+    
+    // MARK: Init
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupUI()

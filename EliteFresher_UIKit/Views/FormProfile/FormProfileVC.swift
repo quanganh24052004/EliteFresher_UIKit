@@ -13,6 +13,8 @@ class FormProfileVC: UIViewController {
     
     @IBOutlet weak var lastName: FormCV!
     
+    @IBOutlet weak var gender: UISegmentedControl!
+    
     @IBOutlet weak var weight: FormCV!
     
     @IBOutlet weak var height: FormCV!
@@ -30,14 +32,6 @@ class FormProfileVC: UIViewController {
         titleFormProfileVC.textColor = .title
         navigationItem.titleView = titleFormProfileVC
         
-        // Nút bên phải
-//        navigationItem.rightBarButtonItem = UIBarButtonItem(
-//            title: "Lưu",
-//            style: .plain,
-//            target: self,
-//            action: #selector(saveTapped)
-//        )
-
         // Nút bên trái (custom Back)
         let backButton = UIBarButtonItem(
             image: UIImage(systemName: "chevron.left"),
@@ -62,8 +56,36 @@ class FormProfileVC: UIViewController {
     
     @IBAction func saveButton(_ sender: Any) {
         //let listView = ListViewVC()
-        let introVC = IntroVC()
-        self.navigationController?.pushViewController(introVC, animated: true)
+        let firstNameText = firstName.text.trimmingCharacters(in: .whitespaces)
+        let lastNameText = lastName.text.trimmingCharacters(in: .whitespaces)
+        let weightText = weight.text.trimmingCharacters(in: .whitespaces)
+        let heightText = height.text.trimmingCharacters(in: .whitespaces)
+
+        guard !firstNameText.isEmpty,
+              !lastNameText.isEmpty,
+              let weightValue = Double(weightText),
+              let heightValue = Double(heightText) else {
+            showAlert(message: "Vui lòng nhập đầy đủ và đúng thông tin")
+            return
+        }
+
+        let selectedGender = Gender.from(index: gender.selectedSegmentIndex)
+
+        let user = User(
+            firstName: firstNameText,
+            lastName: lastNameText,
+            gender: selectedGender,
+            weight: weightValue,
+            height: heightValue
+        )
+
+        if let data = try? JSONEncoder().encode(user) {
+            UserDefaults.standard.set(data, forKey: "savedUser")
+            print("✅ Đã lưu thông tin user: \(user)")
+        }
+
+        //let introVC = IntroVC()
+        //self.navigationController?.pushViewController(introVC, animated: true)
     }
     
 //    @objc func saveTapped() {
@@ -74,6 +96,11 @@ class FormProfileVC: UIViewController {
         navigationController?.popViewController(animated: true)
     }
 
+    func showAlert(message: String) {
+        let alert = UIAlertController(title: "Thông báo", message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default))
+        present(alert, animated: true)
+    }
 
     /*
     // MARK: - Navigation

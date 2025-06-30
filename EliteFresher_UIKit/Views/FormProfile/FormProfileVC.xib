@@ -12,6 +12,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FormProfileVC" customModule="EliteFresher_UIKit" customModuleProvider="target">
             <connections>
                 <outlet property="firstName" destination="WN1-ll-bjy" id="NaE-bE-hGh"/>
+                <outlet property="gender" destination="kpe-fH-bo4" id="i8I-HV-9RX"/>
                 <outlet property="height" destination="e94-gx-1eQ" id="bEm-Qs-OJX"/>
                 <outlet property="lastName" destination="bKK-jq-GKZ" id="LZ0-Kb-iVx"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
